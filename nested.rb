@@ -1,5 +1,4 @@
 
-require 'pry'
 def hopper
 	programmer_hash =
  		{
@@ -109,8 +108,8 @@ def changing_alan
     }
 alans_new_info="GUI"
 programmer_hash[:alans_kay][:known_for]=alans_new_info
-programmer_hash
 binding.pry
+programmer_hash
 
 end
 
